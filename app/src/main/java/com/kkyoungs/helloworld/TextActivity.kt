@@ -3,11 +3,7 @@ package com.kkyoungs.helloworld
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -21,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.kkyoungs.helloworld.ui.theme.HelloWorldTheme
 
-class MainActivity : ComponentActivity() {
+class TextActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -45,7 +41,7 @@ fun Greeting(name: String) {
 //    Text(color = Color.Red, text = "Hello $name", fontSize = 30.sp, fontWeight = FontWeight.Bold)
     // step 5. fontFamily에 Cursive 전달
 //    Text(color = Color.Red, text = "Hello $name", fontSize = 30.sp, fontWeight = FontWeight.Bold, fontFamily = FontFamily.Monospace)
-    // step 6. letterSpacing에 2.sp 전달
+    // step 6. letterSpacing에 2.sp 전달/
 //    Text(color = Color.Red, text = "Hello $name", fontSize = 30.sp, fontWeight = FontWeight.Bold, fontFamily = FontFamily.Monospace, letterSpacing = 2.sp)
     // step 7. maxLines 2지정
 //    Text(color = Color.Red, text = "Hello $name\nHello $name\nHello $name\n", fontSize = 30.sp, fontWeight = FontWeight.Bold, fontFamily = FontFamily.Cursive, letterSpacing = 2.sp, maxLines = 2)
