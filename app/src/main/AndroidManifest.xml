@@ -13,6 +13,11 @@
         android:theme="@style/Theme.HelloWorld"
         tools:targetApi="31">
         <activity
+            android:name=".ui.BoxActivity"
+            android:exported="false"
+            android:label="@string/title_activity_box"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
             android:name=".SurfaceActivity"
             android:exported="false"
             android:label="@string/title_activity_surface"
