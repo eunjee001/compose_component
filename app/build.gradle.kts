@@ -62,6 +62,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.io.coil.kt.compose)
     implementation(libs.io.coil.kt)
+    implementation(libs.androidx.material3.android)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

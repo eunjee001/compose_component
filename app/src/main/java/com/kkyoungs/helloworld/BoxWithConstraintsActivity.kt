@@ -1,5 +1,3 @@
-@file:JvmName("BoxActivityKt")
-
 package com.kkyoungs.helloworld
 
 import android.os.Bundle
